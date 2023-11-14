@@ -1,4 +1,4 @@
-# Check if renv package is available and initialize it if needed
+1# Check if renv package is available and initialize it if needed
 if (!require("renv")) {
   install.packages("renv", dependencies = TRUE,
                    repos = "https://cloud.r-project.org")
